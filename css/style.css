@@ -1,0 +1,238 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 25%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff3333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+b {
+    color: #ff3333;
+}
+
+
+
+#bandeau {
+    background-color: red;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+#bandeau.has-content {
+    display: block;
+}
+
+.form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: #ff3333;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style pour le conteneur du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style pour les cellules du tableau */
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style pour les lignes impaires du tableau */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Style pour le message "Pas de voyage" */
+p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Style pour chaque voyage dans la liste */
+
+
+.voyage:hover {
+    transform: scale(1.03);
+}
+
+/* Style pour le titre du voyage */
+
+/* Style pour les détails de chaque voyage */
+
+
+/* Style pour chaque champ du voyage */
+
+
+/* Style pour le bouton "Réserver" */
+.reserve-button {
+    font-family: 'Arial', sans-serif;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    align-self: flex-end; /* Aligner le bouton à droite */
+}
+
+.reserve-button:hover {
+    background-color: #45a049;
+}
+
+/* Style pour les étoiles de notation */
+.rating {
+    color: #ffcc00;
+    font-size: 18px;
+}
+
+
+/* Style pour les avis des utilisateurs */
+.user-review {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/* Style pour l'icône de personne */
+
+/* Nouveaux styles pour les images des voyages */
+
+
+/* Nouveau style pour les tarifs */
+.correspondance {
+    margin-bottom: 20px;
+}
+
+.voyage-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centrer les voyages si un seul dans l'itinéraire */
+}
+
+.voyage {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.voyage-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.voyage-info {
+    font-size: 16px;
+    color: #333;
+}
+
+.additional-info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+#reserverButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tarif-total {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+    .profile-info {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .profile-info h2 {
+        color: #333;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .profile-info p {
+        margin: 5px 0;
+    }
+
+    /* Additional styling for left alignment */
+    .profile-info {
+        text-align: left;
+    }
+  
+    .correspondance {
+        margin-bottom: 100px; 
+    }
