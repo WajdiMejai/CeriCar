@@ -50,6 +50,7 @@ CERIcar est une application de covoiturage qui permet aux utilisateurs de propos
 ---
 
 **Note :** Ce README fournit une vue d'ensemble du projet CERIcar. Pour des détails spécifiques sur chaque étape du projet, veuillez vous référer à la documentation fournie dans les dossiers correspondants.
+
 **Pour toute question ou assistance supplémentaire, n'hésitez pas à me contacter.**
 
-Auteur : Mejai Wajdi
+**Auteur : Mejai Wajdi**
